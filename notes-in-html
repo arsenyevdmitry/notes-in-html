@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOTES</title>
+</head>
+<body>
+  <style> 
+  h1 {
+    font-size: 50px;
+    margin-left: 47%;
+    margin-top: 10%;
+    color: white;
+  }
+  ol {
+    font-size: 30px;
+    margin-left: 30%;
+    color: white;
+    margin-top: 9%;
+  }
+ body {
+    background-image: url('abstract-background-6m6cjbifu3zpfv84.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+  max-height: 200px;
+  max-width: 750px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+@media (max-width: 400px) {
+  .container {
+    font-size: 1.4rem;
+    padding: 20px;
+    text-align: center;
+    display: block;
+  }
+}
+  </style>
+  <container>
+  <h1>Планы на день:</h1>
+  <ol>
+    <li id="1"></li>
+    <li id="2"></li>
+    <li id="3"></li>
+    <li id="4"></li>
+    <li id="5"></li>
+  </ol>
+<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+  <script>
+
+    var headingElement = document.getElementById("1");
+    console.log(headingElement.innerHTML);
+    var newHeadingText = prompt("Введите свои планы на день от 1 до 5");
+    headingElement.innerHTML = newHeadingText;
+
+       var headingElement = document.getElementById("2");
+        console.log(headingElement.innerHTML);
+        var newHeadingText = prompt("Введите свои планы на день");
+        headingElement.innerHTML = newHeadingText;
+
+           var headingElement = document.getElementById("3");
+            console.log(headingElement.innerHTML);
+            var newHeadingText = prompt("Введите свои планы на день");
+            headingElement.innerHTML = newHeadingText;
+
+               var headingElement = document.getElementById("4");
+                console.log(headingElement.innerHTML);
+                var newHeadingText = prompt("Введите свои планы на день");
+                headingElement.innerHTML = newHeadingText;
+
+                   var headingElement = document.getElementById("5");
+                    console.log(headingElement.innerHTML);
+                    var newHeadingText = prompt("Введите свои планы на день");
+                    headingElement.innerHTML = newHeadingText;
+                  
+
+  </script>
+<script>
+  for (var i = 0; i < 99999; i++) {
+     $("h1").fadeOut(500)
+     $("h1").fadeIn(500)
+  }
+  </script>
+  </container>
+</body>
+</html>
